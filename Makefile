@@ -1,4 +1,4 @@
-CC = clang -std=c89
+CC = cc -std=c89
 SRCS = $(wildcard *.c)
 BINS = $(patsubst %.c, %, $(SRCS))
 LIBS = -lsqlite3
