@@ -3,7 +3,7 @@ image: debian:9
 stages:
   - compile
 
-make
+make:
   stage: compile
   script:
    - apt-get update -qy
