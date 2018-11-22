@@ -11,3 +11,5 @@ git clone https://github.com/angristan/sqlite3-c-examples
 cd sqlite3-c-examples
 make
 ```
+
+To get started, run `./create` and `./insert`.
