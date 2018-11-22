@@ -13,3 +13,7 @@ make
 ```
 
 To get started, run `./create` and `./insert`.
+
+## License
+
+MIT
