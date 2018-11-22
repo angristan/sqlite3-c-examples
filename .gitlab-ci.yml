@@ -1,11 +1,10 @@
 image: debian:9
 
 stages:
-  - init
   - compile
 
 Install dependencies:
-  stage: init
+  stage: compile
   script:
    - apt-get update -qy
    - apt-get install -y build-essential libsqlite3-dev
