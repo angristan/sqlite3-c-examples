@@ -1,4 +1,4 @@
-image: debian:9
+image: debian:9-slim
 
 stages:
   - compile
